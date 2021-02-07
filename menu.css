@@ -1,0 +1,316 @@
+.bg-img img{
+  /* The image used */
+  background-image: url('pp.jpg')
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} 
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc;
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    float: left;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.nav-login a:hover {
+    background-color: #ccc;
+}
+
+.main-container {
+padding-top: 40px;
+}
+
+.main-container {
+color: #335502;
+line-height: 50px;
+text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+}
+
+/*booking.php*/
+
+.booking {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.booking input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 40px;
+}
+
+.booking div{
+
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    color: #111;
+    line-height: 40px;
+}
+    
+
+.booking button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.booking button:hover {
+    background-color: #123456;
+}
+
+
+body{background-color: #161616;
+font-size: 12px;
+font-family: arial;
+margin: 0px;
+}
+
+/* catalog.php */
+div.services{
+    width 1000px; 
+    display table;
+    margin: auto;
+}
+
+div.services h3{
+    float: left;
+    color: black;
+    background: #d3654c;
+    margin: 0px; 
+    line-height: 41px;
+    text-indent: 40px;
+    font-weight: normal;
+    font-size: 22px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+div.services ul, div.services ul li{
+    float:left;
+    padding 0px;
+    margin 0px;
+    list-style: none;
+}
+
+div.services ul{
+    width: 100%
+}
+
+div.services ul li{
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+div.services ul li div.service{
+    width: 90%; margin-left: 5%;
+} 
+
+div.service{
+    float: left;
+    width: 240px;
+    background-color: white;
+    border-bottom: #d3654c 1px solid;
+    position: relative;
+}
+
+div.service a{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+div.service a.img{
+    margin-top: 10px;
+}
+
+div.service a.img img{
+    height: 170px;
+    max-width: 100%;
+    border-bottom: #d3654c 5px solid;
+}
+
+div.service a.name{
+    font-weight: bolder;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 10px;
+ }
+ 
+ div.service a.name:hover{
+    color: #d3654c;
+ }
+
+div.service div{
+    font-size: 16px;
+    font-weight: bold;
+    color: #d3654c;
+    text-indent: 10px;
+    margin: 10px 0 10px 0;
+    float: left;
+    width: 100%;
+}
+
+div.product span{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 3px yellow;
+}
+
+div.product:hover span{
+    background-color: #d3654c;
+}
+
+div.product:hover a.img img{
+    opacity: 0.7;
+}
+
